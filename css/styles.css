@@ -7,10 +7,26 @@
  /* імена #212121 посади #757575 */
  /* колір фону наша команда #F5F4FA */
 
- : root {
-   
- }
- body {
+:root {
+    /*Fonts*/
 
- }
+    /*Text colors*/
+    --main-txt-cl: #212121;
+
+    /*Background colors*/
+    /*Others*/
+
+}
  
+.page {
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+    font-size: 14px;
+    
+    
+}
+
+.link {
+    text-decoration: none;
+}
