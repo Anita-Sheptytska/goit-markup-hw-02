@@ -1,6 +1,6 @@
 :root {
     /*Fonts*/
-    --main-font: Roboto;
+    --main-font: Roboto; san-serif;
     --secondary-font: Raleway;
     
     /*Text colors*/
@@ -24,7 +24,6 @@
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
     font-size: 14px;
-    font-family: sans-serif;
 }
 
 .link {
@@ -55,15 +54,25 @@
 
 .header .link {
     font-weight: 500;
-    font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
 }
+.header .studio,
+.header .portfolio {
+    color: var(--accent-txt-cl);
+    font-family: inherit;
+}
 
+ 
 .header .link:hover,
 .header .link:focus {
     color: var(--accent-txt-cl);
+}
+
+.header .mail,
+.header .tel {
+    color: var(--dark-txt-cl);
 }
 
 /*Hero*/
@@ -73,9 +82,6 @@
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: var(--light-txt-cl);
     cursor: pointer;
@@ -113,14 +119,12 @@
 
 .features-title {
     font-weight: 700;
-    font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .features-subtitle {
-    font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--dark-txt-cl)
@@ -169,14 +173,12 @@
     font-style: normal;
 }
 .address-location {
-    font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--light-txt-cl);
 }
 
 .address-list {
-    font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
